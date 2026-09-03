@@ -4,35 +4,100 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76e0269f-a8c0-4fce-98cd-e1f9fc982e58" name="Changes" comment="" />
+    <list default="true" id="c816f46e-4925-42fd-a14e-f4444caa5d3d" name="Changes" comment="Initial Commit">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/josevictor/ex1/Apolice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/josevictor/ex1/ApoliceAuto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/josevictor/ex1/ApoliceResidencia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/josevictor/ex1/ApoliceViagem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/josevictor/ex1/ApoliceVida.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/josevictor/ex1/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/josevictor/ex1/Criador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/josevictor/ex1/CriadorAuto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/josevictor/ex1/CriadorResidencia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/josevictor/ex1/CriadorViagem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/josevictor/ex1/CriadorVida.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/josevictor/ex1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/josevictor/ex2/CartaoCredito.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/josevictor/ex2/Checkout.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/josevictor/ex2/Correios.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/josevictor/ex2/DeutschePost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/josevictor/ex2/DocumentoFiscal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/josevictor/ex2/Etiqueta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/josevictor/ex2/FabricaAlemanha.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/josevictor/ex2/FabricaBrasil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/josevictor/ex2/FabricaCheckout.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/josevictor/ex2/FabricaEUA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/josevictor/ex2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/josevictor/ex2/NotaFiscal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/josevictor/ex2/Pagamento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/josevictor/ex2/Pedido.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/josevictor/ex2/Pix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/josevictor/ex2/SalesInvoice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/josevictor/ex2/SepaDirectDebit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/josevictor/ex2/USPS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/josevictor/ex2/VATInvoice.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="3IkHY1NPfe7CPfRLwSaBjazmfVo" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="3IopboPTHrDABzTU63kAzm5zipk" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.Main.executor": "Run",
+    "Application.main.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "deletionFromPopupRequiresConfirmation": "false",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "C:/Users/josev/Downloads/Projetos/DesignPatternsExercic/src/main/java/com/josevictor/Main.java"
   }
 }]]></component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.30387.90" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="76e0269f-a8c0-4fce-98cd-e1f9fc982e58" name="Changes" comment="" />
-      <created>1788301691309</created>
+      <changelist id="c816f46e-4925-42fd-a14e-f4444caa5d3d" name="Changes" comment="" />
+      <created>1788440849601</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1788301691309</updated>
+      <updated>1788440849601</updated>
     </task>
     <servers />
   </component>
