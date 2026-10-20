@@ -1,18 +1,31 @@
 package com.josevictor.ex2;
 
-public class Checkout{
-    private FabricaCheckout Fabrica;
+import java.util.ArrayList;
+import java.util.List;
 
-    public Checkout(FabricaCheckout Fabrica){
-        this.Fabrica = Fabrica;
+public class Checkout {
+    private FabricaCheckout fabrica;
+    private List<ObservadorCheckout> observadores = new ArrayList<>();
+
+    public Checkout(FabricaCheckout fabrica) {
+        this.fabrica = fabrica;
     }
 
-    public void finalizarPedido(Pedido pedido){
-        DocumentoFiscal doc = Fabrica.criarDocumento();
-        Pagamento pag = Fabrica.criarPagamento();
-        Etiqueta etiq = Fabrica.criarEtiqueta();
+    public void adicionarObservador(ObservadorCheckout observador) {
+        observadores.add(observador);
+    }
+
+    public void finalizarPedido(Pedido pedido) {
+        DocumentoFiscal doc = fabrica.criarDocumento();
+        Pagamento pag = fabrica.criarPagamento();
+        Etiqueta etiq = fabrica.criarEtiqueta();
+
         doc.gerar(pedido);
         pag.processar(pedido);
         etiq.gerar();
+
+        for (ObservadorCheckout observador : observadores) {
+            observador.pedidoFinalizado(pedido);
+        }
     }
 }

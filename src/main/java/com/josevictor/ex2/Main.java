@@ -8,8 +8,8 @@ public class Main{
         pedidoBR.destino = "RJ";
         pedidoBR.essencial = false;
 
-        FabricaBrasil fabricaBrasil = new FabricaBrasil();
-        Checkout checkoutBrasil = new Checkout(fabricaBrasil);
+        Checkout checkoutBrasil = new Checkout(new FabricaBrasil());
+        checkoutBrasil.adicionarObservador(new AuditoriaCheckout());
         checkoutBrasil.finalizarPedido(pedidoBR);
 
         Pedido pedidoEUA = new Pedido();
